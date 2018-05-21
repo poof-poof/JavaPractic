@@ -3,13 +3,13 @@ package com.ru.alexbataikin.gui;
 import javax.swing.*;
 import java.awt.*;
 
-public class ClientGUI extends JFrame {
+public class ServerGUI extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new ClientGUI();
+                new ServerGUI();
             }
         });
     }
@@ -21,7 +21,7 @@ public class ClientGUI extends JFrame {
     private JButton btnStop = new JButton("Остановить сервер");
     private JTextArea log = new JTextArea();
 
-    ClientGUI(){
+    ServerGUI(){
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(WIDTH,HEIGHT);
         setLocationRelativeTo(null);
