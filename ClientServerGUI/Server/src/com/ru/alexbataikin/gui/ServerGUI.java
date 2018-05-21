@@ -14,8 +14,8 @@ public class ServerGUI extends JFrame {
         });
     }
 
-    public static final int WIDTH = 500;
-    public static final int HEIGHT = 300;
+    public static final int WIDTH = 300;
+    public static final int HEIGHT = 150;
 
     private JButton btnStart = new JButton("Запустить сервер");
     private JButton btnStop = new JButton("Остановить сервер");
